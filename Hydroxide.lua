@@ -1,5 +1,5 @@
-loadstring(game:HttpGetAsync("https://pastebin.com/raw/Z5ykhhdt"))()
-loadstring(game:HttpGetAsync("https://pastebin.com/raw/v7Aai7m8"))()
+version = 1.21
+MSG = loadstring(game:HttpGetAsync("https://pastebin.com/raw/Z5ykhhdt"))
 warn("Hydroxide has been loaded!")
-warn("You are the updated Hydroxide version is " .. HydroxideVersion .. " and you are currently on " .. version .. "!")
+warn("You are currently on version " .. version .. " of Hydroxide")
 warn(MSG)
