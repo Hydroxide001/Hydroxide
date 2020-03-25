@@ -13,7 +13,7 @@ function load(file)
         return loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Hydroxide001/Hydroxide/master/" .. file))() -- github url
     end
     end
-    function Update() -- AutoUpdate Function
+    --[[function Update() -- AutoUpdate Function
     if HydroxideVersion == version then
 print("Already at latest version!")
 load("main.lua") -- Make this a button for auto update in the ui after the thing is loaded
@@ -24,3 +24,5 @@ print("Done!")
     end
 end
 Update()
+]]
+load("main.lua")
