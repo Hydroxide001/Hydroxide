@@ -1,8 +1,4 @@
 version = 1.2
-
-AutoUpdate = true
-BetaRelease = false
-
 loadstring(game:HttpGetAsync("https://pastebin.com/raw/Z5ykhhdt"))()
 loadstring(game:HttpGetAsync("https://pastebin.com/raw/v7Aai7m8"))()
 
