@@ -11,8 +11,7 @@
            Y8b d88P                                                         
             "Y88P"          
 ]]
--- load icons and stuff here
 
 print("Hydroxide has been loaded!")
 print("You are currently on version " .. version .. " of Hydroxide")
-print(MSG)
+messagefunc("ok", "Message", MSG)
