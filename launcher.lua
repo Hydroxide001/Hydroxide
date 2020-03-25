@@ -1,8 +1,6 @@
-local whitelist = {}
-local version = 1.2
+version = 1.2
 
 AutoUpdate = true
-Premium = false
 BetaRelease = false
 
 loadstring(game:HttpGetAsync("https://pastebin.com/raw/Z5ykhhdt"))()
@@ -24,4 +22,4 @@ load("main.lua")
 print("Done!")
     end
 end
-load(Hydroxide.lua)
+Update()
