@@ -1,6 +1,6 @@
 loadstring(game:HttpGetAsync("https://pastebin.com/raw/Z5ykhhdt"))()
 getgenv().Hydroxide = {}
-getgenv().load = function(file) -- load function
+function load(file) -- load function
     if type(file) == "number" then
         return game:GetObjects("rbxassetid://" .. file)()
     else
