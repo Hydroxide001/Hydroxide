@@ -16,6 +16,7 @@ function load(file)
     function Update() -- AutoUpdate Function
     if HydroxideVersion == version then
 print("Already at latest version!")
+load("main.lua") -- Make this a button for auto update in the ui after the thing is loaded
     else
 warn("Outdated version\n Updating...")
 load("main.lua")
