@@ -7,7 +7,6 @@
 # Hydroxide
 
 <p align="center">
-  <img src="https://i.vgy.me/qJi8FC.png">
 </p>
 <p align="center">
   Roblox Developer Tool
