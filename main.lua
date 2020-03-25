@@ -15,4 +15,4 @@
 
 print("Hydroxide has been loaded!")
 print("You are currently on version " .. version .. " of Hydroxide")
-pr(MSG)
+print(MSG)
